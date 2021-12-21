@@ -1,0 +1,26 @@
+{
+  "name": "practical-microservices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-dev-server": "nodemon src/bin/start-server.js --color",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freemans13/practical-microservices.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freemans13/practical-microservices/issues"
+  },
+  "homepage": "https://github.com/freemans13/practical-microservices#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "path": "^0.12.7",
+    "pug": "^3.0.2",
+    "uuid": "^8.3.2"
+  }
+}
